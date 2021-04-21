@@ -46,7 +46,7 @@
 .mode_grid .user_game_grid .game_cell.has_cover {
   width: 250px;
   height: 325px;
-  background-color: #ffffff;
+  background-color: #7c5b81;
 }
 
 .mode_grid .user_game_grid .game_cell.has_cover .game_thumb{

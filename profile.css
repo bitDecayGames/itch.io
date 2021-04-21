@@ -1,0 +1,100 @@
+/* Text Alignment */
+.user_links,
+.user_profile,
+.game_title,
+.game_platform{text-align: center;}
+
+/* Page Font */
+.user_page {
+  font-family: linnsen;
+  font-size: 1.3em;
+  color: #ffffff
+}
+
+/* Make main link icons white */
+.user_page .user_links .svgicon{
+  fill: #ffffff;
+}
+
+/* Genre */
+.game_grid_widget .game_cell .game_genre{
+  color: #777755;
+  width: 35%;
+}
+
+.game_genre, .game_platform {
+    display: inline-block;
+  background: #ffffff;
+}
+
+.game_grid_widget .game_cell .web_flag {
+    color: #ffffff;
+    background: #777755;
+}
+
+.game_platform {
+    text-align: right;
+    width: 65%;
+}
+
+/* Thumbnails */
+.game_cell:hover
+{ 
+  transform: translateY(-3px);
+}
+
+.mode_grid .user_game_grid .game_cell.has_cover {
+  width: 250px;
+  height: 325px;
+  background-color: #ffffff;
+}
+
+.mode_grid .user_game_grid .game_cell.has_cover .game_thumb{
+  width:250px;
+  height:199px;
+}
+
+.game_link{
+  font-size: 1.3em;
+}
+
+.game_grid_widget .game_cell .game_text{
+  font-size: 1.2em;
+}
+
+.game_cell_data{
+  padding-top: 5px;
+  background-color: #ffffff;
+}
+
+.game_grid_widget .game_cell .game_cell_data {
+    margin-top: 0;
+}
+
+.game_cell{
+  transition: transform .2s cubic-bezier(0.29, -1.07, 0.39, 3.65);
+  border-radius: 16px;
+  border: 16px solid transparent;
+  border-image-source: url(https://raw.githubusercontent.com/bitDecayGames/Resources/master/itch/game_card.png);
+  border-image-slice: 32;
+}
+
+.link_group{
+  font-size: 1.3em;
+}
+
+/* Fonts */
+@font-face {
+  font-family:linnsen;
+src:url(https://raw.githubusercontent.com/bitDecayGames/Resources/master/fonts/pixel/linnsen/m5x7.woff2);
+  font-weight:normal;
+  font-style:normal;
+  text-rendering:optimizeLegibility;
+}
+
+@font-face {
+  font-family:linnsen;
+src:url(https://raw.githubusercontent.com/bitDecayGames/Resources/master/fonts/pixel/linnsen/m6x11.woff2);
+  font-weight:bold;
+  text-rendering:optimizeLegibility;
+}

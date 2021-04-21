@@ -18,13 +18,13 @@
 
 /* Genre */
 .game_grid_widget .game_cell .game_genre{
-  color: #777755;
+  color: #ffffff;
   width: 35%;
 }
 
 .game_genre, .game_platform {
     display: inline-block;
-  background: #ffffff;
+  background: #7c5b81;
 }
 
 .game_grid_widget .game_cell .web_flag {
@@ -64,7 +64,7 @@
 
 .game_cell_data{
   padding-top: 5px;
-  background-color: #ffffff;
+  background-color: #7c5b81;
 }
 
 .game_grid_widget .game_cell .game_cell_data {
